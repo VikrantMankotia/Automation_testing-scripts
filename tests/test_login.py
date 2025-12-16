@@ -1,13 +1,18 @@
-from pages.login_page import PracticeLoginPage
+import pytest
+from pages.login_page import LoginPage
 
-def test_practice_login(page):
-    login_page = PracticeLoginPage(page)
+
+def test_valid_login(page):
+    login_page = LoginPage(page)
 
     # Step 1: Open login page
     login_page.open()
 
-    # Step 2: Perform login
-    login_page.login("student", "Password123")
+    # Step 2: Login
+    login_page.login(
+        username="student",
+        password="Password123"
+    )
 
-    # Step 3: Verify success
-    login_page.verify_login_success()
+    # Step 3: Assertion
+    login_page.assert_login_success()
