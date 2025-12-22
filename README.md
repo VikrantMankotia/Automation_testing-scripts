@@ -45,3 +45,15 @@ Pytest
 Playwright
 
 POM Design Pattern
+🧪 Practice & Learning Scope
+
+This repository also includes random Page Object Models (POMs) and test cases created as part of continuous learning and hands-on practice.
+These practice tests are added regularly to explore different UI components, improve automation skills, and demonstrate consistency in framework usage.
+
+The goal is to:
+
+Practice real-world automation scenarios
+
+Strengthen understanding of Playwright and Pytest
+
+Maintain an active and evolving automation repository
