@@ -45,6 +45,8 @@ Pytest
 Playwright
 
 POM Design Pattern
+
+
 🧪 Practice & Learning Scope
 
 This repository also includes random Page Object Models (POMs) and test cases created as part of continuous learning and hands-on practice.
